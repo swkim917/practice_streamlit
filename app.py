@@ -6,4 +6,4 @@ string = st.text_input(
 )
 
 if string:
-    st.text('좋아하는 영화는 '+string)
+    st.text('좋아하는 영화는 ' + string + ' 입니다.')
