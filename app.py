@@ -2,8 +2,8 @@ import streamlit as st
 
 # text input
 string = st.text_input(
-    'Movie title', placeholder='write down the title of your favorite movie'
+    '영화 제목', placeholder='좋아하는 영화 제목을 작성하세요'
 )
 
 if string:
-    st.text('Your answer is '+string)
+    st.text('좋아하는 영화는 '+string)
